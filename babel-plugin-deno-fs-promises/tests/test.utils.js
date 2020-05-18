@@ -3,29 +3,39 @@ import fs from 'fs';
 import util from 'util';
 import child_process from 'child_process';
 import * as babel from '@babel/core';
-import type { BabelFileResult } from 'babel__core';
-import plugin from '../src/index';
+import plugin from '../lib/index';
 
 const exec = util.promisify(child_process.exec);
 
-export async function readNodeFile(fileName: string): Promise<string> {
+/**
+ * @param {string} fileName
+ * @return {Promise<string>}
+ */
+export async function readNodeFile(fileName) {
   const fileNamePath = path.join(__dirname, 'fixtures', `${fileName}.mjs`);
   const input = await fs.promises.readFile(fileNamePath, { encoding: 'utf8' });
   return input;
 }
 
-export async function transpile(fileContents: string): Promise<BabelFileResult | null> {
-  // @ts-ignore
+/**
+ * @param {string} fileContents
+ * @return {Promise<BabelFileResult>}
+ */
+export async function transpile(fileContents) {
   return await babel.transformAsync(fileContents, {
     plugins: [plugin],
     ast: false,
   });
 }
 
+/**
+ * @param {string} filename
+ * @return {Promise<void>}
+ */
 export async function writeDenoFile(
-  fileName: string,
-  outputContent: string,
-): Promise<void> {
+  fileName,
+  outputContent,
+) {
   if (!module?.parent?.filename) {
     throw new Error('module.parent.filename not what we think it is');
   }
@@ -39,10 +49,18 @@ export async function writeDenoFile(
   await fs.promises.writeFile(outputPath, outputContent);
 }
 
-export async function readTranspileAndWrite(fileName: string): Promise<{
-  nodeFile: string,
-  denoResult: BabelFileResult;
-}> {
+/**
+ * @typedef {Object} ReadTranspileAndWriteResult
+ * @property {string} nodeFile
+ * @property {BabelFileResult} denoResult
+ */
+
+/**
+ * @param {string} fileName
+ * @async
+ * @return {ReadTranspileAndWriteResult}
+ */
+export async function readTranspileAndWrite(fileName) {
   const nodeFileContents = await readNodeFile(fileName);
   const denoResult = await transpile(nodeFileContents);
   if (!denoResult?.code) throw new Error('somehow, there was problem transpiling and no code was returned');
@@ -53,10 +71,19 @@ export async function readTranspileAndWrite(fileName: string): Promise<{
   };
 }
 
-export async function nodeRun(fileName): Promise<{
-  stdout: string
-  stderr: string
-}> {
+/**
+ * @typedef {Object} StdOutErrReturn
+ * @property {string} stdout
+ * @property {string} stderr
+ */
+
+/**
+ * @param {string} fileName
+ * @async
+ * @async
+ * @return {StdOutErrReturn}
+ */
+export async function nodeRun(fileName) {
   const scriptPath = path.join(__dirname, 'fixtures', `${fileName}.mjs`);
   const { stdout, stderr } = await exec(`node ${scriptPath}`, {
     cwd: path.join(__dirname, 'fixtures'),
@@ -65,10 +92,12 @@ export async function nodeRun(fileName): Promise<{
   return { stdout, stderr };
 }
 
-export async function denoRun(fileName: string): Promise<{
-  stdout: string,
-  stderr: string
-}> {
+/**
+ * @param {string} fileName
+ * @async
+ * @return {StdOutErrReturn}
+ */
+export async function denoRun(fileName) {
   const scriptPath = path.join(__dirname, 'fixtures', `${fileName}.deno.js`);
   const { stdout, stderr } = await exec(`deno run -A ${scriptPath}`, {
     cwd: path.join(__dirname, 'fixtures'),

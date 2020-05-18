@@ -1,10 +1,10 @@
 {
   "extends": "../tsconfig.base.json",
   "compilerOptions": {
-    "rootDir": "src",
+    "rootDir": "lib",
     "outDir": "build"
   },
-  "include": ["src/**/*"],
+  "include": ["lib/**/*"],
   "references": [
     {
       "path": "../babel-helper-deno-general"

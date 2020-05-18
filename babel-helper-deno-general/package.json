@@ -2,10 +2,9 @@
   "name": "babel-helper-deno-general",
   "version": "0.1.0",
   "description": "",
-  "main": "build",
+  "main": "lib",
   "scripts": {
-    "build": "tsc --build",
-    "test": "yarn"
+    "test": "jest"
   },
   "keywords": [],
   "author": "Edwin Kofler",

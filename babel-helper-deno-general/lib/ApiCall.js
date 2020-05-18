@@ -6,9 +6,10 @@
  */
 function flattenLikeMemberExpressionChain(
   parentMemberExpression,
-): Array<string> {
+) {
   // this really is an array of 'properties' of those memberExpression
-  const memberExpressionArray: Array<string> = [];
+  // array string
+  const memberExpressionArray = [];
 
   const walkUp = (currentParentMemberExpression) => {
     if (currentParentMemberExpression.property.type !== 'Identifier') {
@@ -55,7 +56,7 @@ function flattenLikeMemberExpressionChain(
 }
 
 export class ApiCall {
-  #likeMemberExpressionChain: string[];
+  #likeMemberExpressionChain;
 
   /**
    * right now 'node' is assumed to be a CallExpression
@@ -65,16 +66,10 @@ export class ApiCall {
   }
 
   /**
-   * @desc tests to see if two api calls are roughly similar.
+   * @desc tests to see if two api calls are roughly similar
+   * @param {string} comparison - comparison string
    */
-  public matches(comparison: string): boolean {
+  matches(comparison) {
     return this.#likeMemberExpressionChain.join('.') === comparison;
-  }
-
-  /**
-   * @desc converts the babel ast
-   */
-  public getOpts(): object {
-    return {};
   }
 }

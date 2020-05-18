@@ -44,10 +44,6 @@ importers:
       prettier-plugin-toml: ^0.3.1
       ts-node: ^8.10.1
       typescript: ^3.8.3
-  babel-deno-helper-test-runner:
-    specifiers: {}
-  babel-deno-helpers:
-    specifiers: {}
   babel-helper-deno-general:
     devDependencies:
       typescript: 3.9.2
@@ -57,38 +53,24 @@ importers:
     dependencies:
       babel-helper-deno-general: 'link:../babel-helper-deno-general'
     devDependencies:
-      '@babel/core': 7.9.6
-      '@babel/types': 7.9.6
-      '@types/babel__core': 7.1.7
-      '@types/jest': 25.2.2
-      '@types/node': 14.0.1
       jest: 26.0.1
-      node-ts: 5.0.5
-      ts-jest: 26.0.0_jest@26.0.1+typescript@3.9.2
       typescript: 3.9.2
     specifiers:
-      '@babel/core': ^7.9.6
-      '@babel/types': ^7.9.6
-      '@types/babel__core': ^7.1.7
-      '@types/jest': ^25.2.2
-      '@types/node': ^14.0.1
       babel-helper-deno-general: ^0.1.0
       jest: ^26.0.1
-      node-ts: ^5.0.5
-      ts-jest: ^26.0.0
       typescript: ^3.9.2
   babel-preset-deno:
     dependencies:
       '@babel/helper-plugin-utils': 7.8.3
+      '@babel/plugin-syntax-flow': 7.8.3
+      '@babel/types': 7.9.6
       babel-plugin-deno-fs-promises: 'link:../babel-plugin-deno-fs-promises'
     devDependencies:
-      '@babel/plugin-syntax-flow': 7.8.3
-      '@babel/plugin-transform-modules-commonjs': 7.9.6
       typescript: 3.9.2
     specifiers:
       '@babel/helper-plugin-utils': ^7.8.3
       '@babel/plugin-syntax-flow': ^7.8.3
-      '@babel/plugin-transform-modules-commonjs': ^7.9.6
+      '@babel/types': ^7.9.6
       babel-plugin-deno-fs-promises: ^0.1.0
       typescript: ^3.9.2
   deno_node_modules:
@@ -259,7 +241,6 @@ packages:
     resolution:
       integrity: sha512-3x3yOeyBhW851hroze7ElzdkeRXQYQbFIb7gLK1WQYsw2GWDay5gAJNw1sWJ0VFP6z5J1whqeXH/WCdCjZv6dA==
   /@babel/helper-validator-identifier/7.9.5:
-    dev: true
     resolution:
       integrity: sha512-/8arLKUFq882w4tWGj9JYzRpAlZgiWUJ+dtteNTDqrRBz9Iguck9Rn3ykuBDoUwh2TO4tSAJlrxDUOXWklJe4g==
   /@babel/helpers/7.9.6:
@@ -315,7 +296,7 @@ packages:
   /@babel/plugin-syntax-flow/7.8.3:
     dependencies:
       '@babel/helper-plugin-utils': 7.8.3
-    dev: true
+    dev: false
     peerDependencies:
       '@babel/core': ^7.0.0-0
     resolution:
@@ -411,17 +392,6 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-7Qfg0lKQhEHs93FChxVLAvhBshOPQDtJUTVHr/ZwQNRccCm4O9D79r9tVSoV8iNwjP1YgfD+e/fgHcPkN1qEQg==
-  /@babel/plugin-transform-modules-commonjs/7.9.6:
-    dependencies:
-      '@babel/helper-module-transforms': 7.9.0
-      '@babel/helper-plugin-utils': 7.8.3
-      '@babel/helper-simple-access': 7.8.3
-      babel-plugin-dynamic-import-node: 2.3.3
-    dev: true
-    peerDependencies:
-      '@babel/core': ^7.0.0-0
-    resolution:
-      integrity: sha512-7H25fSlLcn+iYimmsNe3uK1at79IE6SKW9q0/QeEHTMC9MdOZ+4bA+T1VFB5fgOqBWoqlifXRzYD0JPdmIrgSQ==
   /@babel/plugin-transform-modules-commonjs/7.9.6_@babel+core@7.9.6:
     dependencies:
       '@babel/core': 7.9.6
@@ -505,7 +475,6 @@ packages:
       '@babel/helper-validator-identifier': 7.9.5
       lodash: 4.17.15
       to-fast-properties: 2.0.0
-    dev: true
     resolution:
       integrity: sha512-qxXzvBO//jO9ZnoasKF1uJzHd2+M6Q2ZPIVfnFps8JJvXy0ZBbwbNOmE6SGIY5XOY6d1Bo5lb9d9RJ8nv3WSeA==
   /@bcoe/v8-coverage/0.2.3:
@@ -1643,12 +1612,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-0mnpenB8rLhBVu8VUklp38gWi+EatjvcEcLWcdProMKauSaQWWepOAybZ714sOGsEyhXPlIcHICggn8HUsCXVw==
-  /@rauschma/stringio/1.4.0:
-    dependencies:
-      '@types/node': 10.17.21
-    dev: true
-    resolution:
-      integrity: sha512-3uor2f/MXZkmX5RJf8r+OC3WvZVzpSme0yyL0rQDPEnatE02qRcqwEwnsgpgriEck0S/n4vWtUd6tTtrJwk45Q==
   /@rollup/plugin-babel/5.0.0_@babel+core@7.9.6+rollup@2.10.2:
     dependencies:
       '@babel/core': 7.9.6
@@ -1813,13 +1776,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-msra1bCaAeEdkSyA0CZ6gW1ukMIvZ5YoJkdXw/qhQdsuuDlFTcEUrUw8CLCPt2rVRUfXlClVvK2gvPs9IokZaA==
-  /@types/jest/25.2.2:
-    dependencies:
-      jest-diff: 25.5.0
-      pretty-format: 25.5.0
-    dev: true
-    resolution:
-      integrity: sha512-aRctFbG8Pb7DSLzUt/fEtL3q/GKb9mretFuYhRub2J0q6NhzBYbx9HTQzHrWgBNIxYOlxGNVe6Z54cpbUt+Few==
   /@types/json-schema/7.0.4:
     dev: true
     resolution:
@@ -1832,10 +1788,6 @@ packages:
     dev: true
     resolution:
       integrity: sha1-aaI6OtKcrwCX8G7aWbNh7i8GOfY=
-  /@types/node/10.17.21:
-    dev: true
-    resolution:
-      integrity: sha512-PQKsydPxYxF1DsAFWmunaxd3sOi3iMt6Zmx/tgaagHYmwJ/9cRH91hQkeJZaUGWbvn0K5HlSVEXkn5U/llWPpQ==
   /@types/node/13.13.5:
     dev: true
     resolution:
@@ -1901,7 +1853,6 @@ packages:
       eslint: 7.0.0
       eslint-scope: 5.0.0
       eslint-utils: 2.0.0
-      typescript: 3.8.3
     dev: true
     engines:
       node: ^8.10.0 || ^10.13.0 || >=11.10.1
@@ -2487,14 +2438,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==
-  /bs-logger/0.2.6:
-    dependencies:
-      fast-json-stable-stringify: 2.1.0
-    dev: true
-    engines:
-      node: '>= 6'
-    resolution:
-      integrity: sha512-pd8DCoxmbgc7hyPKOvxtqNcjYoOsABPQdcCUjGp3d42VR2CX1ORhk2A87oqqu5R1kk+76nsxZupkmyd+MVtCog==
   /bser/2.1.1:
     dependencies:
       node-int64: 0.4.0
@@ -5865,10 +5808,6 @@ packages:
     dev: true
     resolution:
       integrity: sha1-dWy1FQyjum8RCFp4hJZF8Yj4Xzc=
-  /lodash.memoize/4.1.2:
-    dev: true
-    resolution:
-      integrity: sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
   /lodash.set/4.3.2:
     dev: true
     resolution:
@@ -5895,7 +5834,6 @@ packages:
     resolution:
       integrity: sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
   /lodash/4.17.15:
-    dev: true
     resolution:
       integrity: sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
   /log-symbols/3.0.0:
@@ -6397,15 +6335,6 @@ packages:
     optional: true
     resolution:
       integrity: sha512-y8ThJESxsHcak81PGpzWwQKxzk+5YtP3IxR8AYdpXQ1IB6FmcVzFdZXrkPin49F/DKUCfeeiziB8ptY9npzGuA==
-  /node-ts/5.0.5:
-    dependencies:
-      '@rauschma/stringio': 1.4.0
-      '@types/node': 13.13.6
-    dev: true
-    engines:
-      node: '>=10.0.0'
-    resolution:
-      integrity: sha512-rPsrjkRCqoJJmuRsIurRwtiOWaP21i+bSo2jeeLwl9HWvKZTP+fjDsah6NZSLqm/QXvEJ0DstkswWpfDq6ZDOg==
   /nopt/4.0.3:
     dependencies:
       abbrev: 1.1.1
@@ -8489,7 +8418,6 @@ packages:
     resolution:
       integrity: sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
   /to-fast-properties/2.0.0:
-    dev: true
     engines:
       node: '>=4'
     resolution:
@@ -8587,29 +8515,6 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-n5up2e+odkw4dpi8v+sshI8RrbM=
-  /ts-jest/26.0.0_jest@26.0.1+typescript@3.9.2:
-    dependencies:
-      bs-logger: 0.2.6
-      buffer-from: 1.1.1
-      fast-json-stable-stringify: 2.1.0
-      jest: 26.0.1
-      json5: 2.1.3
-      lodash.memoize: 4.1.2
-      make-error: 1.3.6
-      micromatch: 4.0.2
-      mkdirp: 1.0.4
-      semver: 7.3.2
-      typescript: 3.9.2
-      yargs-parser: 18.1.3
-    dev: true
-    engines:
-      node: '>= 10'
-    hasBin: true
-    peerDependencies:
-      jest: '>=26 <27'
-      typescript: '>=3.8 <4.0'
-    resolution:
-      integrity: sha512-eBpWH65mGgzobuw7UZy+uPP9lwu+tPp60o324ASRX4Ijg8UC5dl2zcge4kkmqr2Zeuk9FwIjvCTOPuNMEyGWWw==
   /ts-node/8.10.1_typescript@3.8.3:
     dependencies:
       arg: 4.1.3

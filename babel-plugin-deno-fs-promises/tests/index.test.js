@@ -1,8 +1,9 @@
 import {
-  getNodeFiles, readTranspileAndWrite, nodeRun, denoRun, transpile,
+  getNodeFiles, readTranspileAndWrite, nodeRun, denoRun,
 } from './test.utils';
 
-const nodeFileNames: string[] = getNodeFiles();
+// string array
+const nodeFileNames = getNodeFiles();
 
 // @ts-ignore nodeFileNames is being used before it is defined
 for (const fileName of nodeFileNames) {

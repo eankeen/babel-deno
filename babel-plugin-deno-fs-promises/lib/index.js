@@ -1,5 +1,5 @@
 // @ts-ignore
-import { callExpressionFactory, ApiCall } from 'babel-helper-deno-general';
+import { callExpressionFactory, ApiCall } from '../../babel-helper-deno-general/lib';
 
 type param = string | number | boolean | object;
 
