@@ -1,0 +1,28 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   lernaVersion: '3.20.2',
+0 silly argv   '$0': 'node_modules/lerna/cli.js'
+0 silly argv }
+1 notice cli v3.20.2
+2 verbose rootPath /home/edwin/docs/programming/repos/babel-deno
+3 info current version 0.2.0
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly currentBranch
+7 verbose currentBranch dev
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 silly isBehindUpstream dev is behind origin/dev by 0 commit(s) and ahead by 0
+11 silly hasTags
+12 verbose hasTags true
+13 error Error: Command failed: git describe --always --long --dirty --first-parent
+13 error fatal: cannot chdir to '../../../../../deno_node_modules/packages/dotenv': No such file or directory
+13 error fatal: 'git status --porcelain=2' failed in submodule deno_modules/packages/dotenv
+13 error
+13 error
+13 error     at makeError (/home/edwin/docs/programming/repos/babel-deno/node_modules/.pnpm/registry.npmjs.org/execa/1.0.0/node_modules/execa/index.js:174:9)
+13 error     at Function.module.exports.sync (/home/edwin/docs/programming/repos/babel-deno/node_modules/.pnpm/registry.npmjs.org/execa/1.0.0/node_modules/execa/index.js:338:15)
+13 error     at Object.execSync (/home/edwin/docs/programming/repos/babel-deno/node_modules/.pnpm/registry.npmjs.org/@lerna/child-process/3.16.5/node_modules/@lerna/child-process/index.js:26:16)
+13 error     at Function.sync (/home/edwin/docs/programming/repos/babel-deno/node_modules/.pnpm/registry.npmjs.org/@lerna/describe-ref/3.16.5/node_modules/@lerna/describe-ref/lib/describe-ref.js:49:31)
+13 error     at collectUpdates (/home/edwin/docs/programming/repos/babel-deno/node_modules/.pnpm/registry.npmjs.org/@lerna/collect-updates/3.20.0/node_modules/@lerna/collect-updates/collect-updates.js:31:56)
+13 error     at VersionCommand.initialize (/home/edwin/docs/programming/repos/babel-deno/node_modules/.pnpm/registry.npmjs.org/@lerna/version/3.20.2/node_modules/@lerna/version/index.js:188:20)

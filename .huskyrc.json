@@ -1,0 +1,5 @@
+{
+  "hooks": {
+    "pre-commit": "pnpx --no-install lint-staged"
+  }
+}

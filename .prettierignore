@@ -1,0 +1,13 @@
+# misc
+**/deno_modules/packages/**/*
+
+# test
+**/test/fixtures/**
+
+# build
+**/build/**
+**/dist/**
+
+# packages
+**/node_modules/**
+

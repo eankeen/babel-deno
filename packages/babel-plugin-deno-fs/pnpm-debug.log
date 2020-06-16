@@ -1,0 +1,22 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "/home/edwin/docs/programming/repos/babel-deno"
+  },
+  "1 debug pnpm": {
+    "isCaseSensitive": true,
+    "store": "/home/edwin/.pnpm-store/2"
+  },
+  "2 error pnpm": {
+    "message": {
+      "code": "ERR_PNPM_CANNOT_REMOVE_MISSING_DEPS",
+      "hint": "Available dependencies: @babel/core, @babel/types, babel-helper-deno-plugin-test-runner, jest, rimraf, ts-jest, typescript, @babel/generator, @babel/helper-plugin-utils, @babel/parser, @babel/template, babel-helper-deno-general, debug"
+    },
+    "err": {
+      "name": "Error",
+      "message": "Cannot remove '@types/node': no such dependency found",
+      "code": "ERR_PNPM_CANNOT_REMOVE_MISSING_DEPS",
+      "stack": "Error: Cannot remove '@types/node': no such dependency found\n    at Object.handler (/home/edwin/.local/opt/n/pnpm-global/3/node_modules/.pnpm/registry.npmjs.org/pnpm/4.14.4/node_modules/pnpm/lib/node_modules/@pnpm/plugin-commands-installation/lib/remove.js:135:15)"
+    }
+  }
+}

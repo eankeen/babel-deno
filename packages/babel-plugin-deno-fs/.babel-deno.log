@@ -1,0 +1,158 @@
+Tue, 26 May 2020 04:40:32 GMT: fs.chmodSync, mode arg not supported adding unsafe placeholder
+Tue, 26 May 2020 04:40:32 GMT: fs.chmodSync, mode arg not supported adding unsafe placeholder
+Tue, 26 May 2020 04:40:32 GMT: we don't support the third argument of copyFileSync
+Tue, 26 May 2020 04:43:57 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 04:43:57 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 04:43:57 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 06:07:24 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:07:24 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:07:24 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 06:15:00 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:15:00 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:15:00 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 06:15:05 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:15:05 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:15:05 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 06:15:42 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:15:42 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:15:42 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 06:17:59 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:17:59 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:17:59 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 06:18:17 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:18:17 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:18:17 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 06:26:16 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:26:16 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:26:16 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 06:26:48 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:26:48 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:26:48 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 06:27:04 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:27:04 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:27:04 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 06:27:17 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:27:17 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:27:17 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 06:27:50 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:27:50 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:27:50 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 06:28:00 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:28:00 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:28:00 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 06:28:51 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:28:51 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:28:51 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 06:44:01 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:44:01 GMT: unexpected value in primitiveFromAst
+Tue, 26 May 2020 06:44:01 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:44:01 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 06:44:05 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:44:05 GMT: unexpected value in primitiveFromAst
+Tue, 26 May 2020 06:44:05 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:44:05 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 06:45:43 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:45:43 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:45:43 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 06:46:13 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:46:13 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:46:13 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 06:46:19 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:46:19 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 06:46:19 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 07:03:11 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 07:03:11 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 07:03:11 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 07:03:37 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 07:03:37 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 07:03:37 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 07:06:24 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 07:06:24 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 07:06:24 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 08:02:26 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 08:02:26 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 08:02:26 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 08:05:45 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 08:05:45 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 08:05:45 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 08:05:45 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 08:09:59 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 08:09:59 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 08:10:25 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 08:10:25 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 08:10:33 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 08:10:33 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 08:10:51 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 08:11:14 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 08:11:18 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 08:12:33 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 08:13:59 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 08:13:59 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 08:13:59 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 08:13:59 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 08:15:27 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 08:15:27 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 08:15:27 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 08:15:27 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 08:15:40 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 08:15:40 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 08:15:40 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 08:15:40 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 08:18:03 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 08:18:03 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 08:18:03 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 08:18:03 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 09:20:51 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 09:20:51 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 09:20:51 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 09:20:51 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 20:04:33 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 20:04:33 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 20:04:33 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 20:04:33 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 20:45:08 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 20:45:08 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 20:45:08 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 20:45:08 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 20:45:18 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 20:45:18 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 20:45:18 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder
+Tue, 26 May 2020 20:45:18 GMT: fs.copyFileSync: mode argument not supported.
+Tue, 26 May 2020 20:51:06 GMT: [Function: debug] {
+  namespace: 'babel-deno:babel-plugin-deno-fs',
+  enabled: false,
+  useColors: true,
+  color: 170,
+  destroy: [Function: destroy],
+  extend: [Function: extend],
+  inspectOpts: {}
+} []
+Tue, 26 May 2020 20:51:06 GMT: [Function: debug] {
+  namespace: 'babel-deno:babel-plugin-deno-fs',
+  enabled: false,
+  useColors: true,
+  color: 170,
+  destroy: [Function: destroy],
+  extend: [Function: extend],
+  inspectOpts: {}
+} []
+Tue, 26 May 2020 20:52:06 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder []
+Tue, 26 May 2020 20:52:06 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder []
+Tue, 26 May 2020 20:52:06 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder []
+Tue, 26 May 2020 20:52:06 GMT: fs.copyFileSync: mode argument not supported. []
+Tue, 26 May 2020 20:52:51 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder []
+Tue, 26 May 2020 20:52:51 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder []
+Tue, 26 May 2020 20:52:51 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder []
+Tue, 26 May 2020 20:52:51 GMT: fs.copyFileSync: mode argument not supported. []
+Tue, 26 May 2020 20:53:31 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder []
+Tue, 26 May 2020 20:53:31 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder []
+Tue, 26 May 2020 20:53:31 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder []
+Tue, 26 May 2020 20:53:31 GMT: fs.copyFileSync: mode argument not supported. []
+Tue, 26 May 2020 20:55:19 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder []
+Tue, 26 May 2020 20:55:19 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder []
+Tue, 26 May 2020 20:55:19 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder []
+Tue, 26 May 2020 20:55:19 GMT: fs.copyFileSync: mode argument not supported. []
+Tue, 26 May 2020 21:21:03 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder []
+Tue, 26 May 2020 21:21:03 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder []
+Tue, 26 May 2020 21:21:03 GMT: fs.chmodSync: 'mode' arg not supported. adding unsafe placeholder []
+Tue, 26 May 2020 21:21:03 GMT: fs.copyFileSync: mode argument not supported. []

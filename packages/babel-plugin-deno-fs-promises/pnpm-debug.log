@@ -1,0 +1,22 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "/home/edwin/docs/programming/repos/babel-deno"
+  },
+  "1 debug pnpm": {
+    "isCaseSensitive": true,
+    "store": "/home/edwin/.pnpm-store/2"
+  },
+  "2 warn pnpm:global": "waiting for the store at \"/home/edwin/.pnpm-store/2\" to be unlocked...",
+  "3 error pnpm": {
+    "message": {
+      "code": "ERR_PNPM_REGISTRIES_MISMATCH"
+    },
+    "err": {
+      "name": "Error",
+      "message": "This modules directory was created using the following registries configuration: {\"default\":\"https://registry.npmjs.org/\"}. The current configuration is {\"default\":\"https://registry.yarnpkg.com/\"}. To recreate recreate the modules directory using the new settings, run \"pnpm install\".",
+      "code": "ERR_PNPM_REGISTRIES_MISMATCH",
+      "stack": "Error: This modules directory was created using the following registries configuration: {\"default\":\"https://registry.npmjs.org/\"}. The current configuration is {\"default\":\"https://registry.yarnpkg.com/\"}. To recreate recreate the modules directory using the new settings, run \"pnpm install\".\n    at validateNodeModules (/home/edwin/.local/opt/n/pnpm-global/3/node_modules/.pnpm/registry.npmjs.org/pnpm/4.14.4/node_modules/pnpm/lib/node_modules/@pnpm/get-context/lib/index.js:178:15)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at async Object.getContext [as default] (/home/edwin/.local/opt/n/pnpm-global/3/node_modules/.pnpm/registry.npmjs.org/pnpm/4.14.4/node_modules/pnpm/lib/node_modules/@pnpm/get-context/lib/index.js:21:28)\n    at async Object.mutateModules (/home/edwin/.local/opt/n/pnpm-global/3/node_modules/.pnpm/registry.npmjs.org/pnpm/4.14.4/node_modules/pnpm/lib/node_modules/supi/lib/install/index.js:63:17)\n    at async Object.handler (/home/edwin/.local/opt/n/pnpm-global/3/node_modules/.pnpm/registry.npmjs.org/pnpm/4.14.4/node_modules/pnpm/lib/node_modules/@pnpm/plugin-commands-installation/lib/remove.js:141:30)"
+    }
+  }
+}

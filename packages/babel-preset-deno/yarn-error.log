@@ -1,0 +1,60 @@
+Arguments: 
+  /home/edwin/.local/opt/n/bin/node /usr/bin/yarn
+
+PATH: 
+  /home/edwin/.local/share/deno/bin:/home/edwin/.deno/bin:/home/edwin/.rvm/bin:/home/edwin/.local/opt/flutter/bin:/home/edwin//home/edwin/.local/go-path/bin:/home/edwin/.poetry/bin:/home/edwin/.local/share/cargo/bin:/home/edwin/.local/share/yarn/global/node_modules/.bin:/home/edwin/.local/opt/n/bin:/home/edwin/.local/opt/krew/bin:/snap/bin:/home/edwin/.local/bin:/home/edwin/.local/share/deno/bin:/home/edwin/.deno/bin:/home/edwin/.rvm/bin:/home/edwin/.local/opt/flutter/bin:/home/edwin//home/edwin/.local/go-path/bin:/home/edwin/.poetry/bin:/home/edwin/.local/share/cargo/bin:/home/edwin/.local/share/yarn/global/node_modules/.bin:/home/edwin/.local/opt/n/bin:/home/edwin/.local/opt/krew/bin:/snap/bin:/home/edwin/.local/bin:/home/edwin/.local/share/deno/bin:/home/edwin/.deno/bin:/home/edwin/.rvm/bin:/home/edwin/.local/opt/flutter/bin:/home/edwin//home/edwin/.local/go-path/bin:/home/edwin/.poetry/bin:/home/edwin/.local/share/cargo/bin:/home/edwin/.local/share/yarn/global/node_modules/.bin:/home/edwin/.local/opt/n/bin:/home/edwin/.local/opt/krew/bin:/snap/bin:/home/edwin/.local/bin:/home/edwin/.local/share/deno/bin:/home/edwin/.deno/bin:/home/edwin/.rvm/bin:/home/edwin/.local/opt/flutter/bin:/home/edwin//home/edwin/.local/go-path/bin:/home/edwin/.poetry/bin:/home/edwin/.local/share/cargo/bin:/home/edwin/.local/share/yarn/global/node_modules/.bin:/home/edwin/.local/opt/n/bin:/home/edwin/.local/opt/krew/bin:/snap/bin:/home/edwin/.local/bin:/home/edwin/.local/share/deno/bin:/home/edwin/.deno/bin:/home/edwin/.rvm/bin:/home/edwin/.local/opt/flutter/bin:/home/edwin//home/edwin/.local/go-path/bin:/home/edwin/.poetry/bin:/home/edwin/.local/share/cargo/bin:/home/edwin/.local/share/yarn/global/node_modules/.bin:/home/edwin/.local/opt/n/bin:/home/edwin/.local/opt/krew/bin:/snap/bin:/home/edwin/.local/bin:/home/edwin/.local/bin:/home/edwin/.local/share/deno/bin:/home/edwin/.deno/bin:/home/edwin/.rvm/bin:/home/edwin/.local/opt/flutter/bin:/home/edwin//home/edwin/.local/go-path/bin:/home/edwin/.poetry/bin:/home/edwin/.local/share/cargo/bin:/home/edwin/.local/share/yarn/global/node_modules/.bin:/home/edwin/.local/opt/n/bin:/home/edwin/.local/opt/krew/bin:/snap/bin:/home/edwin/.local/bin:/home/edwin/.local/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/snap/bin:/var/lib/snapd/snap/bin:/snap/bin:/var/lib/snapd/snap/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.2.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/babel-plugin-deno-fs-promises: Not found
+      at Request.params.callback [as _callback] (/usr/lib/node_modules/yarn/lib/cli.js:66987:18)
+      at Request.self.callback (/usr/lib/node_modules/yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1225:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "babel-preset-deno",
+    "version": "0.0.1",
+    "description": "Babel preset to transpile NodeJS API calls to their respective Deno equivalents",
+    "main": "build/index.js",
+    "scripts": {
+      "build": "tsc --outDir build",
+      "test": "jest"
+    },
+    "keywords": [
+      "babel",
+      "babel-preset",
+      "deno",
+      "typescript"
+    ],
+    "author": "Edwin Kofler",
+    "license": "MIT",
+    "dependencies": {
+      "@babel/helper-plugin-utils": "^7.8.3",
+      "babel-plugin-deno-fs-promises": "workspace:^1.0.0"
+    },
+    "devDependencies": {
+      "typescript": "^3.9.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

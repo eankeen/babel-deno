@@ -1,0 +1,1 @@
+{"version":3,"file":"Mod.js","sourceRoot":"","sources":["../src/Mod.ts"],"names":[],"mappings":";;;AAEA,MAAa,GAAG;IAGd,YAAY,IAAS;QACnB,IAAI,CAAC,IAAI,GAAG,IAAI,CAAA;IAClB,CAAC;IAED;;;OAGG;IACI,eAAe,CACpB,WAAsC,EACtC,UAAkB,EAClB,QAAgB;QAEhB,aAAa;QACb,WAAW,CAAC,GAAG,CAAC;YACd,UAAU;YACV,QAAQ;SACT,CAAC,CAAA;IACJ,CAAC;CACF;AAtBD,kBAsBC"}
